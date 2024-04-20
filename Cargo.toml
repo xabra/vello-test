@@ -1,0 +1,10 @@
+[package]
+name = "vello-test"
+
+# The dependencies here are independent from the workspace versions
+[dependencies]
+vello = "0.1.0"
+anyhow = "1.0.81"
+pollster = "0.3.0"
+wgpu = "0.19.3"
+winit = "0.29.15"
